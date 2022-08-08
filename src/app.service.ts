@@ -1,6 +1,6 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
-import { VALIDITY_PERIOD } from '../config';
-import { Errormessage } from '../Errormessage';
+import { VALIDITY_PERIOD } from '../helpers/config';
+import { Errormessage } from '../helpers/Errormessage';
 import {Buffer} from 'buffer';
 
 @Injectable()

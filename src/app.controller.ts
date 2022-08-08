@@ -1,7 +1,7 @@
 import { Controller, Get, Param, Headers, Put, UseInterceptors, UploadedFile, Body, Res } from '@nestjs/common';
 import { FileInterceptor } from "@nestjs/platform-express";
 import { AppService } from './app.service';
-import { Helper } from '../sharedhelper';
+import { Helper } from '../helpers/sharedhelper';
 import { diskStorage } from 'multer';
 
 
